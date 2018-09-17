@@ -28,6 +28,13 @@ assert_equal(expected, actual)
 end
 
 
+def test_update_points
+expected = 1
+actual = @weirdoteam.update_points(1)
+assert_equal(expected, actual)
+
+end
+
 
 
 
